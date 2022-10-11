@@ -18,4 +18,9 @@ func main() {
 	month = 4
 	day = 12
 	println(fmt.Sprintf("luhanmin born in %d %d %d", year, month, day))
+
+	for i := 0; i < 10; i++ {
+		println(i)
+	}
+
 }
